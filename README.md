@@ -253,3 +253,22 @@ Deploying your Expo application works slightly differently compared to Next.js o
 The stack originates from [create-t3-app](https://github.com/t3-oss/create-t3-app).
 
 A [blog post](https://jumr.dev/blog/t3-turbo) where I wrote how to migrate a T3 app into this.
+
+## Notes
+
+I found some really interesting aspects of this mono repo that I didn't know before.
+
+- Usage of `react-server` in `exports` of the `auth` package
+- `next-auth` & `react`'s ' `cache` function to deduplicate requests manually. This is the future
+- CLI visualizer when I run any turbo command
+- Exporting t3 env validation rules from the package that requires them to work properly
+- t3 env now supports extension of the config! Presets feature is available
+- `tsconfig.json` file for internal packages. It is used to generate d.ts files for better editor performance
+- Good examples of GitHub Actions usage
+- Turbo generator to create a new package. This is so satisfying
+- New tool - `jiti`. Allows to run env validation during the runtime
+- Ignoring `/api` in `middleware` since it already contains auth logic
+- Caching `reateTRPCContext` in react server
+- HTTP requests batching in TRPc is somewhat awesome and new
+- TRPc `api.useUtils` for in-browser usage. Can be used to invalidate stale data
+- `useSuspenseQuery`
