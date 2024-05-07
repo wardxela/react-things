@@ -23,8 +23,8 @@
     "typescript-eslint": "^7.8.0"
   },
   "devDependencies": {
-    "@react-things/prettier-config": "*",
-    "@react-things/tsconfig": "*",
+    "@react-things/prettier-config": "workspace:*",
+    "@react-things/tsconfig": "workspace:*",
     "eslint": "^9.2.0",
     "prettier": "^3.2.5",
     "typescript": "^5.4.5"

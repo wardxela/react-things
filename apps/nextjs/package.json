@@ -14,11 +14,11 @@
     "with-env": "dotenv -e ../../.env --"
   },
   "dependencies": {
-    "@react-things/api": "*",
-    "@react-things/auth": "*",
-    "@react-things/db": "*",
-    "@react-things/ui": "*",
-    "@react-things/validators": "*",
+    "@react-things/api": "workspace:*",
+    "@react-things/auth": "workspace:*",
+    "@react-things/db": "workspace:*",
+    "@react-things/ui": "workspace:*",
+    "@react-things/validators": "workspace:*",
     "@t3-oss/env-nextjs": "^0.10.1",
     "@tanstack/react-query": "^5.35.1",
     "@trpc/client": "11.0.0-rc.364",
@@ -32,10 +32,10 @@
     "zod": "^3.23.6"
   },
   "devDependencies": {
-    "@react-things/eslint-config": "*",
-    "@react-things/prettier-config": "*",
-    "@react-things/tailwind-config": "*",
-    "@react-things/tsconfig": "*",
+    "@react-things/eslint-config": "workspace:*",
+    "@react-things/prettier-config": "workspace:*",
+    "@react-things/tailwind-config": "workspace:*",
+    "@react-things/tsconfig": "workspace:*",
     "@types/node": "^20.12.9",
     "@types/react": "^18.3.1",
     "@types/react-dom": "^18.3.0",

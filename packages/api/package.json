@@ -19,17 +19,17 @@
     "typecheck": "tsc --noEmit --emitDeclarationOnly false"
   },
   "dependencies": {
-    "@react-things/auth": "*",
-    "@react-things/db": "*",
-    "@react-things/validators": "*",
+    "@react-things/auth": "workspace:*",
+    "@react-things/db": "workspace:*",
+    "@react-things/validators": "workspace:*",
     "@trpc/server": "11.0.0-rc.364",
     "superjson": "2.2.1",
     "zod": "^3.23.6"
   },
   "devDependencies": {
-    "@react-things/eslint-config": "*",
-    "@react-things/prettier-config": "*",
-    "@react-things/tsconfig": "*",
+    "@react-things/eslint-config": "workspace:*",
+    "@react-things/prettier-config": "workspace:*",
+    "@react-things/tsconfig": "workspace:*",
     "eslint": "^9.2.0",
     "prettier": "^3.2.5",
     "typescript": "^5.4.5"

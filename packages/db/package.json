@@ -28,9 +28,9 @@
     "zod": "^3.23.6"
   },
   "devDependencies": {
-    "@react-things/eslint-config": "*",
-    "@react-things/prettier-config": "*",
-    "@react-things/tsconfig": "*",
+    "@react-things/eslint-config": "workspace:*",
+    "@react-things/prettier-config": "workspace:*",
+    "@react-things/tsconfig": "workspace:*",
     "dotenv-cli": "^7.4.1",
     "drizzle-kit": "^0.20.18",
     "eslint": "^9.2.0",

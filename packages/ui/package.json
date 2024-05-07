@@ -30,10 +30,10 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@react-things/eslint-config": "*",
-    "@react-things/prettier-config": "*",
-    "@react-things/tailwind-config": "*",
-    "@react-things/tsconfig": "*",
+    "@react-things/eslint-config": "workspace:*",
+    "@react-things/prettier-config": "workspace:*",
+    "@react-things/tailwind-config": "workspace:*",
+    "@react-things/tsconfig": "workspace:*",
     "@types/react": "^18.3.1",
     "eslint": "^9.2.0",
     "prettier": "^3.2.5",

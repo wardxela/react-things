@@ -4,7 +4,6 @@
   "private": true,
   "type": "module",
   "exports": {
-    "./native": "./native.ts",
     "./web": "./web.ts"
   },
   "license": "MIT",
@@ -20,9 +19,9 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@react-things/eslint-config": "*",
-    "@react-things/prettier-config": "*",
-    "@react-things/tsconfig": "*",
+    "@react-things/eslint-config": "workspace:*",
+    "@react-things/prettier-config": "workspace:*",
+    "@react-things/tsconfig": "workspace:*",
     "eslint": "^9.2.0",
     "prettier": "^3.2.5",
     "typescript": "^5.4.5"
