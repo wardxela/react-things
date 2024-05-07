@@ -1,4 +1,6 @@
-import baseConfig, { restrictEnvAccess } from "@react-things/eslint-config/base";
+import baseConfig, {
+  restrictEnvAccess,
+} from "@react-things/eslint-config/base";
 import nextjsConfig from "@react-things/eslint-config/nextjs";
 import reactConfig from "@react-things/eslint-config/react";
 
