@@ -1,5 +1,5 @@
 {
-  "name": "@acme/ui",
+  "name": "@react-things/ui",
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -30,10 +30,10 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@acme/eslint-config": "*",
-    "@acme/prettier-config": "*",
-    "@acme/tailwind-config": "*",
-    "@acme/tsconfig": "*",
+    "@react-things/eslint-config": "*",
+    "@react-things/prettier-config": "*",
+    "@react-things/tailwind-config": "*",
+    "@react-things/tsconfig": "*",
     "@types/react": "^18.3.1",
     "eslint": "^9.2.0",
     "prettier": "^3.2.5",
@@ -46,5 +46,5 @@
     "react": "18.3.1",
     "zod": "^3.23.6"
   },
-  "prettier": "@acme/prettier-config"
+  "prettier": "@react-things/prettier-config"
 }

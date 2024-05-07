@@ -1,3 +1,3 @@
-export { GET, POST } from "@acme/auth";
+export { GET, POST } from "@react-things/auth";
 
 export const runtime = "edge";

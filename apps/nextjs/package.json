@@ -1,5 +1,5 @@
 {
-  "name": "@acme/nextjs",
+  "name": "@react-things/nextjs",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -14,11 +14,11 @@
     "with-env": "dotenv -e ../../.env --"
   },
   "dependencies": {
-    "@acme/api": "*",
-    "@acme/auth": "*",
-    "@acme/db": "*",
-    "@acme/ui": "*",
-    "@acme/validators": "*",
+    "@react-things/api": "*",
+    "@react-things/auth": "*",
+    "@react-things/db": "*",
+    "@react-things/ui": "*",
+    "@react-things/validators": "*",
     "@t3-oss/env-nextjs": "^0.10.1",
     "@tanstack/react-query": "^5.35.1",
     "@trpc/client": "11.0.0-rc.364",
@@ -32,10 +32,10 @@
     "zod": "^3.23.6"
   },
   "devDependencies": {
-    "@acme/eslint-config": "*",
-    "@acme/prettier-config": "*",
-    "@acme/tailwind-config": "*",
-    "@acme/tsconfig": "*",
+    "@react-things/eslint-config": "*",
+    "@react-things/prettier-config": "*",
+    "@react-things/tailwind-config": "*",
+    "@react-things/tsconfig": "*",
     "@types/node": "^20.12.9",
     "@types/react": "^18.3.1",
     "@types/react-dom": "^18.3.0",
@@ -46,5 +46,5 @@
     "tailwindcss": "^3.4.3",
     "typescript": "^5.4.5"
   },
-  "prettier": "@acme/prettier-config"
+  "prettier": "@react-things/prettier-config"
 }

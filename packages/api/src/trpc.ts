@@ -10,8 +10,8 @@ import { initTRPC, TRPCError } from "@trpc/server";
 import superjson from "superjson";
 import { ZodError } from "zod";
 
-import type { Session } from "@acme/auth";
-import { db } from "@acme/db";
+import type { Session } from "@react-things/auth";
+import { db } from "@react-things/db";
 
 /**
  * 1. CONTEXT
